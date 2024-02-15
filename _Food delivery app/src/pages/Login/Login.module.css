@@ -1,0 +1,43 @@
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: left;
+}
+
+.input {
+    display: block;
+    margin-bottom: 30px;
+    color: #c4c4c4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.formBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.underText {
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.underText a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.error {
+    padding: 20px;
+    background-color: rgb(160, 47, 47);
+    color: white;
+}

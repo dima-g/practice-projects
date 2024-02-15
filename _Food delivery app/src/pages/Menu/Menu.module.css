@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.menuContainer {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}

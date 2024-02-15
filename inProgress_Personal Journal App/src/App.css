@@ -1,0 +1,8 @@
+.app {
+	display: flex;
+	padding: 30px;
+}
+
+.app input, textarea, select {
+	color: white;
+  }
